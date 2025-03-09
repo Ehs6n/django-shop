@@ -1,0 +1,33 @@
+# Django-specific ignores
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.local
+.venv/
+venv/
+env/
+ENV/
+*.bak
+*.swp
+.DS_Store
+
+# Ignore the virtual environment
+venv/
+.venv/
+
+# Ignore IDE/Editor files
+.vscode/
+.idea/
+*.sln
+*.suo
+
+# Ignore Python dependencies
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
